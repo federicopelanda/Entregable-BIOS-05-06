@@ -325,3 +325,9 @@ input:focus {
     left: 40px;
     top: 870px;
 }
+
+input {
+    background: #F9F9F9;
+border: 2px solid rgba(134, 131, 131, 0.59);
+border-radius: 6px
+}
