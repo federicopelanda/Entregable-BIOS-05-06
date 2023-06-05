@@ -36,8 +36,19 @@ nav a {
     position: absolute;
     width: 414px;
     height: 104px;
-    left: -81px;
+    left: 10px;
     top: 162px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: 0.07em;
+
+color: #000000;
+
+border: 1px solid #000000;
 }
 
 .logo {
@@ -62,6 +73,8 @@ nav a {
   .button-login:hover {
     background-color: #442a97;
   }
+
+  
 
   .formulario {
     position: absolute;
