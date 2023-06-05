@@ -53,12 +53,12 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #4caf50;
+    background-color: #6341D5;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   .button-login:hover {
-    background-color: #45a049;
+    background-color: #442a97;
   }
