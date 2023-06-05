@@ -1,78 +1,54 @@
-.pricing {
-position: absolute;
-left: 0%;
-right: 87.47%;
-top: 0%;
-bottom: 0%;
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #000000;
-}
-
-.about{
+.container-header {
+    display: inline-block;
     position: absolute;
-left: 64.45%;
-right: 24.55%;
-top: 0%;
-bottom: 0%;
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #000000;
+    left: 4%;
+    top: 3%;
+    font-size: 14px;
+    line-height: 17px;
 }
 
-.resourcesCenter {
-position: absolute;
-left: 22.76%;
-right: 45.78%;
-top: 0%;
-bottom: 0%;
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #000000;
+header {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
 }
 
-.contact{
-    position: absolute;
-left: 85.68%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #000000;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    flex-grow: 1;
+    margin-right: -260px;
+    margin-left: 48px;
 }
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1
+}
+
+nav a {
+    margin-right: 67px;
+    text-decoration: none;
+    color: #333;
+}
+
 .titulo1 {
     position: absolute;
-width: 414px;
-height: 104px;
-left: -81px;
-top: 162px;
+    width: 414px;
+    height: 104px;
+    left: -81px;
+    top: 162px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
