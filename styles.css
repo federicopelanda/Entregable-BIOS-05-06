@@ -288,3 +288,21 @@ input:focus {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+.button-send {
+    display: inline-block;
+    padding: 13px 217px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #6341D5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-send:hover {
+    background-color: #442a97;
+}
