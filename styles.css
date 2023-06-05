@@ -1,3 +1,5 @@
+
+
 header {
     margin-top: 30px;
     margin-left: 40px;
@@ -237,6 +239,7 @@ nav a {
 
 
 .formulario {
+    font-weight: bold;
     font-family: 'Arimo';
     position: absolute;
     width: 559px;
@@ -305,4 +308,20 @@ input:focus {
 
 .button-send:hover {
     background-color: #442a97;
+}
+
+.telefono1 {
+    position: absolute;
+    width: 12px;
+    height: 13px;
+    left: 262px;
+    top: 870px;
+}
+
+.telefono2 {
+    position: absolute;
+    width: 12px;
+    height: 13px;
+    left: 40px;
+    top: 870px;
 }
