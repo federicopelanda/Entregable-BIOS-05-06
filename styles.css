@@ -245,3 +245,13 @@ top: 235px;
 background: #FFFFFF;
 box-shadow: 1px 22px 33px 9px rgba(30, 30, 30, 0.23);
   }
+
+  label {
+    display: block; /* Para que el label se muestre en una línea separada */
+    margin-bottom: 5px; /* Espaciado inferior entre el label y el input */
+  }
+
+
+  .inputylabel {
+    margin: 45px;
+  }

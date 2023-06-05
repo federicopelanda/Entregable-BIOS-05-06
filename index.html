@@ -42,8 +42,6 @@
 
 
 
-
-
     <h1 class="titulo1">Talk to our product analystics expert</h1>
     <br />
     <p class="parrafo1" id="parrafo1">
@@ -80,29 +78,35 @@
     <img src="IMAGES/foto_ubicacion.png" alt="UBICACIONUK" class="ubicacionUK">
     <img src="IMAGES/foto_ubicacion.png" alt="UBICACIONFR" class="ubicacionFR">
 
-
-    <div class="formulario" id="formulario">
-      <input type="text" class="primerNombre" id="primerNombre">
+    <form class="formulario" id="formulario">
+      <div class="inputylabel">
       <label for="primerNombre">First Name</label>
-      <input type="text" class="segundoNombre">
+      <input type="text" class="primerNombre" id="primerNombre" placeholder="First Name">
+      <br>
+      <br>
       <label for="segundoNombre">Second Name</label>
+      <input type="text" class="segundoNombre" placeholder="Second Name">
       <br>
       <br>
-      <input type="email" name="email" id="email">
       <label for="email">Email Adress</label>
+      <input type="email" name="email" id="email" placeholder="Email Address">
       <br>
       <br>
-      <select id="country" name="country"><input type="tel" name="telefono" id="telefono">
-      <label for="telefono">Phone Number</label>
+      <label for="email">Company Name</label>
+      <input type="email" name="companyname" id="companyname" placeholder="Company Name">
       <br>
       <br>
-      <input type="text" name="message" id="message">
+      <label for="email">Phone Number</label>
+      <select id="country" name="country"><input type="tel" name="telefono" id="telefono" placeholder="Phone Number">
+      <br>
+      <br>
       <label for="message">Message</label>
+      <input type="text" name="message" id="message" placeholder="Message">
       <br>
       <br>
       <button type="submit">Send</button>
-
-    </div>
+      </div>
+      </form>
   </body>
   <footer>
     
