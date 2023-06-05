@@ -62,3 +62,11 @@ nav a {
   .button-login:hover {
     background-color: #442a97;
   }
+
+  .formulario {
+    position: absolute;
+width: 559px;
+height: 696px;
+left: 795px;
+top: 235px;
+  }
