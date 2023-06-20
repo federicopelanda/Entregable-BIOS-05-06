@@ -81,36 +81,36 @@
     
     <form class="formulario" id="formulario">
       <div class="inputylabel">
-      <label for="primerNombre">First Name</label>
-      <input type="text" class="primerNombre" id="primerNombre" placeholder="First Name">
+      <label for="firstName">First Name</label>
+      <input type="text" class="firstName" id="firstName" placeholder="First Name">
       <br>
       <br>
       <label for="lastName">Last Name</label>
-      <input type="text" class="lastName" placeholder="Last Name">
+      <input type="text" class="lastName" id="lastName" placeholder="Last Name">
       <br>
       <br>
       <label for="email">Email Adress</label>
       <input type="email" name="email" id="email" placeholder="Email Address">
       <br>
       <br>
-      <label for="email">Company Name</label>
-      <input type="email" name="companyname" id="companyname" placeholder="Company Name">
+      <label for="compaNyname">Company Name</label>
+      <input type="email" name="companyName" id="companyName" placeholder="Company Name">
       <br>
       <br>
-      <label for="email">Phone Number</label>
-      <select class="select">
+      <label for="pais">Phone Number</label>
+      <select class="select" id="pais">
         <option>Uruguay</option>
         <option>Estados Unidos</option>
         <option>Argentina</option>
       </select>
-      <input type="tel" name="telefono" class="telefono" placeholder="Phone Number">
+      <input type="tel" id="tel" name="telefono" class="telefono" placeholder="Phone Number">
       <br>
       <br>
       <label for="message">Message</label>
       <input type="text" name="message" id="message" placeholder="Message">
       <br>
       <br>
-      <button type="submit" class="button-send">Send</button>
+      <button class="button-send" onclick="submitForm()">Send</button>
       </div>
       </form>
   </body>
